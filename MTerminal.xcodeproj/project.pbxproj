@@ -47,7 +47,7 @@
 
 /* Begin PBXFileReference section */
 		C162F58E1FED4F0400112B23 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C3757A5B1FEB804600A48503 /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = .app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3757A5B1FEB804600A48503 /* MTerminal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTerminal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3757A6D1FEB804600A48503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3757A751FEB806A00A48503 /* bell.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bell.caf; sourceTree = "<group>"; };
 		C3757A791FEB806A00A48503 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 		C3757A5C1FEB804600A48503 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3757A5B1FEB804600A48503 /* .app */,
+				C3757A5B1FEB804600A48503 /* MTerminal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,7 +234,7 @@
 			);
 			name = MTerminal;
 			productName = die;
-			productReference = C3757A5B1FEB804600A48503 /* .app */;
+			productReference = C3757A5B1FEB804600A48503 /* MTerminal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -443,6 +443,7 @@
 					"-framework",
 					IOKit,
 				);
+				PRODUCT_NAME = MTerminal;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -459,6 +460,7 @@
 					"-framework",
 					IOKit,
 				);
+				PRODUCT_NAME = MTerminal;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
