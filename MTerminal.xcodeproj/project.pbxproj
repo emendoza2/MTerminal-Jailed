@@ -40,7 +40,7 @@
 		C3757AED1FEB86EF00A48503 /* kutils.c in Sources */ = {isa = PBXBuildFile; fileRef = C3757ADF1FEB86EE00A48503 /* kutils.c */; };
 		C3757AEF1FEB86EF00A48503 /* symbols.c in Sources */ = {isa = PBXBuildFile; fileRef = C3757AE21FEB86EE00A48503 /* symbols.c */; };
 		C3757AF31FEB8A1D00A48503 /* binpack.tar in Resources */ = {isa = PBXBuildFile; fileRef = C3757AF21FEB8A1C00A48503 /* binpack.tar */; };
-		C3757AF51FEB8A9300A48503 /* tar.binary.txt in Resources */ = {isa = PBXBuildFile; fileRef = C3757AF41FEB8A9200A48503 /* tar.binary.txt */; };
+		C3757AF51FEB8A9300A48503 /* tar in Resources */ = {isa = PBXBuildFile; fileRef = C3757AF41FEB8A9200A48503 /* tar */; };
 		C3757AF71FEB8DF400A48503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3757AF61FEB8DF400A48503 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -100,7 +100,7 @@
 		C3757AE21FEB86EE00A48503 /* symbols.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = symbols.c; sourceTree = "<group>"; };
 		C3757AE31FEB86EE00A48503 /* symbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symbols.h; sourceTree = "<group>"; };
 		C3757AF21FEB8A1C00A48503 /* binpack.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = binpack.tar; sourceTree = "<group>"; };
-		C3757AF41FEB8A9200A48503 /* tar.binary.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = tar.binary.txt; sourceTree = "<group>"; };
+		C3757AF41FEB8A9200A48503 /* tar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tar; sourceTree = "<group>"; };
 		C3757AF61FEB8DF400A48503 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -188,7 +188,7 @@
 				C3757AC51FEB858800A48503 /* fun_objc.m */,
 				C3757AC91FEB858800A48503 /* patchfinder64.c */,
 				C3757ACA1FEB858800A48503 /* patchfinder64.h */,
-				C3757AF41FEB8A9200A48503 /* tar.binary.txt */,
+				C3757AF41FEB8A9200A48503 /* tar */,
 				C3757AF21FEB8A1C00A48503 /* binpack.tar */,
 			);
 			path = the_fun_part;
@@ -279,7 +279,7 @@
 				C3757A901FEB806B00A48503 /* icon-76.png in Resources */,
 				C3757A891FEB806B00A48503 /* Default@2x.png in Resources */,
 				C3757A881FEB806B00A48503 /* Default.png in Resources */,
-				C3757AF51FEB8A9300A48503 /* tar.binary.txt in Resources */,
+				C3757AF51FEB8A9300A48503 /* tar in Resources */,
 				C3757A8D1FEB806B00A48503 /* icon-60.png in Resources */,
 				C162F58F1FED4F0400112B23 /* README.md in Resources */,
 				C3757AF71FEB8DF400A48503 /* LaunchScreen.storyboard in Resources */,
