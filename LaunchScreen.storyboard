@@ -5,7 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -28,17 +28,17 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by AppleBetas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzu-Mo-g0m">
                                         <rect key="frame" x="0.0" y="40.5" width="252" height="19.5"/>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="iWA-dF-UdM">
-                                <rect key="frame" x="36" y="552" width="303" height="95"/>
+                                <rect key="frame" x="20" y="552" width="335" height="95"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credits:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usC-kx-vaT">
-                                        <rect key="frame" x="0.0" y="0.0" width="70.5" height="23"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usC-kx-vaT">
+                                        <rect key="frame" x="0.0" y="0.0" width="65" height="23"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -74,10 +74,11 @@
                         <constraints>
                             <constraint firstItem="FNe-eB-UdM" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8wN-tv-JNS"/>
                             <constraint firstItem="FNe-eB-UdM" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-30" id="ANf-ti-Vk7"/>
-                            <constraint firstItem="iWA-dF-UdM" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="20" id="MGA-gJ-3mQ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="iWA-dF-UdM" secondAttribute="trailing" constant="20" id="W28-vX-ZlY"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="iWA-dF-UdM" secondAttribute="bottom" constant="20" id="tgK-Xc-QqT"/>
+                            <constraint firstItem="iWA-dF-UdM" firstAttribute="leading" secondItem="ImG-wM-UY8" secondAttribute="leading" constant="20" id="MGA-gJ-3mQ"/>
+                            <constraint firstItem="ImG-wM-UY8" firstAttribute="trailing" secondItem="iWA-dF-UdM" secondAttribute="trailing" constant="20" id="W28-vX-ZlY"/>
+                            <constraint firstItem="ImG-wM-UY8" firstAttribute="bottom" secondItem="iWA-dF-UdM" secondAttribute="bottom" constant="20" id="tgK-Xc-QqT"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="ImG-wM-UY8"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
