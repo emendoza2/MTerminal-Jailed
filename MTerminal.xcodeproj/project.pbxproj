@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C162F58F1FED4F0400112B23 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C162F58E1FED4F0400112B23 /* README.md */; };
 		C164A2471FEEAAB100AD3A73 /* MTGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = C164A2461FEEAAB100AD3A73 /* MTGradientView.m */; };
 		C164A24A1FEEAF7900AD3A73 /* MTWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C164A2491FEEAF7900AD3A73 /* MTWindow.m */; };
 		C1846E6A1FEECA1D004E71AB /* tar.binary in Resources */ = {isa = PBXBuildFile; fileRef = C1846E691FEECA1C004E71AB /* tar.binary */; };
+		C1F078F61FEECDCB000129A6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F078F41FEECDCA000129A6 /* Default.png */; };
+		C1F078F71FEECDCB000129A6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F078F51FEECDCB000129A6 /* Default@2x.png */; };
 		C3757A6E1FEB804600A48503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3757A6D1FEB804600A48503 /* main.m */; };
 		C3757A841FEB806B00A48503 /* bell.caf in Resources */ = {isa = PBXBuildFile; fileRef = C3757A751FEB806A00A48503 /* bell.caf */; };
-		C3757A881FEB806B00A48503 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3757A791FEB806A00A48503 /* Default.png */; };
-		C3757A891FEB806B00A48503 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3757A7A1FEB806A00A48503 /* Default@2x.png */; };
 		C3757A8A1FEB806B00A48503 /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = C3757A7B1FEB806A00A48503 /* icon-40.png */; };
 		C3757A8B1FEB806B00A48503 /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3757A7C1FEB806A00A48503 /* icon-40@2x.png */; };
 		C3757A8C1FEB806B00A48503 /* icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3757A7D1FEB806A00A48503 /* icon-40@3x.png */; };
@@ -51,11 +50,11 @@
 		C164A2481FEEAF7900AD3A73 /* MTWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTWindow.h; sourceTree = "<group>"; };
 		C164A2491FEEAF7900AD3A73 /* MTWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTWindow.m; sourceTree = "<group>"; };
 		C1846E691FEECA1C004E71AB /* tar.binary */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tar.binary; sourceTree = "<group>"; };
+		C1F078F41FEECDCA000129A6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C1F078F51FEECDCB000129A6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C3757A5B1FEB804600A48503 /* MTerminal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTerminal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3757A6D1FEB804600A48503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3757A751FEB806A00A48503 /* bell.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bell.caf; sourceTree = "<group>"; };
-		C3757A791FEB806A00A48503 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		C3757A7A1FEB806A00A48503 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C3757A7B1FEB806A00A48503 /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
 		C3757A7C1FEB806A00A48503 /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
 		C3757A7D1FEB806A00A48503 /* icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@3x.png"; sourceTree = "<group>"; };
@@ -163,9 +162,9 @@
 		C3757A741FEB806A00A48503 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C1F078F41FEECDCA000129A6 /* Default.png */,
+				C1F078F51FEECDCB000129A6 /* Default@2x.png */,
 				C3757A751FEB806A00A48503 /* bell.caf */,
-				C3757A791FEB806A00A48503 /* Default.png */,
-				C3757A7A1FEB806A00A48503 /* Default@2x.png */,
 				C3757A7B1FEB806A00A48503 /* icon-40.png */,
 				C3757A7C1FEB806A00A48503 /* icon-40@2x.png */,
 				C3757A7D1FEB806A00A48503 /* icon-40@3x.png */,
@@ -277,18 +276,17 @@
 			files = (
 				C3757A911FEB806B00A48503 /* icon-76@2x.png in Resources */,
 				C3757A901FEB806B00A48503 /* icon-76.png in Resources */,
-				C3757A891FEB806B00A48503 /* Default@2x.png in Resources */,
-				C3757A881FEB806B00A48503 /* Default.png in Resources */,
 				C1846E6A1FEECA1D004E71AB /* tar.binary in Resources */,
 				C3757A8D1FEB806B00A48503 /* icon-60.png in Resources */,
-				C162F58F1FED4F0400112B23 /* README.md in Resources */,
 				C3757AF71FEB8DF400A48503 /* LaunchScreen.storyboard in Resources */,
 				C3757A8C1FEB806B00A48503 /* icon-40@3x.png in Resources */,
 				C3757A8B1FEB806B00A48503 /* icon-40@2x.png in Resources */,
+				C1F078F61FEECDCB000129A6 /* Default.png in Resources */,
 				C3757AF31FEB8A1D00A48503 /* binpack.tar in Resources */,
 				C3757A8E1FEB806B00A48503 /* icon-60@2x.png in Resources */,
 				C3757A8F1FEB806B00A48503 /* icon-60@3x.png in Resources */,
 				C3757A8A1FEB806B00A48503 /* icon-40.png in Resources */,
+				C1F078F71FEECDCB000129A6 /* Default@2x.png in Resources */,
 				C3757A841FEB806B00A48503 /* bell.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
