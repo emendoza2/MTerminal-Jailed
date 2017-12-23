@@ -1,4 +1,6 @@
 #import <UIKit/UIKit.h>
+#import "MTController.h"
+#import "MTWindow.h"
 
 @class MTController;
 

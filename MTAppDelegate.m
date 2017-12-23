@@ -1,5 +1,4 @@
 #import "MTAppDelegate.h"
-#import "MTController.h"
 #import "async_wake/async_wake.h"
 #import "the_fun_part/fun.h"
 
@@ -11,7 +10,7 @@
     
     let_the_fun_begin(tfp0, user_client);
     
-    window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    window=[[MTWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     window.rootViewController=controller=[[MTController alloc] init];
     [window makeKeyAndVisible];
     
