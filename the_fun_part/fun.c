@@ -16,7 +16,7 @@
 // export PATH="$BOOTSTRAP_PREFIX/usr/local/bin:$BOOTSTRAP_PREFIX/usr/sbin:$BOOTSTRAP_PREFIX/usr/bin:$BOOTSTRAP_PREFIX/sbin:$BOOTSTRAP_PREFIX/bin"
 #define BOOTSTRAP_PREFIX "bootstrap"
 
-int cp(const char *to, const char *from)
+int cp(const char *to, const char *from, bool writeMachOHeader)
 {
 	int fd_to, fd_from;
 	char buf[4096];
@@ -30,6 +30,15 @@ int cp(const char *to, const char *from)
 	fd_to = open(to, O_WRONLY | O_CREAT | O_EXCL, 0666);
 	if (fd_to < 0)
 		goto out_error;
+    
+    if (writeMachOHeader) {
+        char buff[4];
+        buff[0]=0xCF;
+        buff[1]=0xFA;
+        buff[2]=0xED;
+        buff[3]=0xFE;
+        write(fd_to, buff, 4);
+    }
 	
 	while (nread = read(fd_from, buf, sizeof buf), nread > 0)
 	{
@@ -447,8 +456,8 @@ do { \
 //	cp("/Library/LaunchDaemons/test_fsigned.plist", plistPath2());
 
     mkdir("/" BOOTSTRAP_PREFIX, 0777);
-    const char *tar = "/" BOOTSTRAP_PREFIX "/tar";
-    cp(tar, progname("tar"));
+    const char *tar = "/" BOOTSTRAP_PREFIX "/tar-fixed";
+    cp(tar, progname("tar.binary"), true);
     chmod(tar, 0777);
     inject_trusts(1, (const char **)&(const char*[]){tar});
 
