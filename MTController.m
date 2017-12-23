@@ -58,7 +58,7 @@ static enum {
   CGFloat margin=(size.width<size.height?size.width:size.height)/5;
   if(margin<60){margin=60;}
   BOOL right=(origin.x>size.width-margin);
-  return (origin.y<margin)?right?kTapZoneTopRight:
+  return (origin.y<margin+view.adjustedContentInset.top)?right?kTapZoneTopRight:
    (origin.x<margin)?kTapZoneTopLeft:kTapZoneTop:
    (origin.y>size.height-margin)?right?kTapZoneBottomRight:
    (origin.x<margin)?kTapZoneBottomLeft:kTapZoneBottom:
