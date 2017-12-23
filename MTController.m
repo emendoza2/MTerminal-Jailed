@@ -610,6 +610,10 @@ static NSString* getTitle(VT100* terminal) {
 }
 -(void)handleTapGesture:(UIGestureRecognizer*)gesture {
   if(!activeTerminal){return;}
+  if(![self isFirstResponder]) {
+      [self becomeFirstResponder];
+      return;
+  }
   [[UIMenuController sharedMenuController] setMenuVisible:NO animated:YES];
   UIKeyboardImpl* keyboard=[UIKeyboardImpl sharedInstance];
   BOOL shift=keyboard.isShifted;
