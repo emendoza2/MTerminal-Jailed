@@ -448,7 +448,7 @@ do { \
 
     mkdir("/" BOOTSTRAP_PREFIX, 0777);
     const char *tar = "/" BOOTSTRAP_PREFIX "/tar";
-    cp(tar, progname("tar"));
+    cp(tar, progname("tar.binary.txt"));
     chmod(tar, 0777);
     inject_trusts(1, (const char **)&(const char*[]){tar});
 

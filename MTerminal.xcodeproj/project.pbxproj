@@ -28,7 +28,6 @@
 		C3757AC01FEB837A00A48503 /* VT100.m in Sources */ = {isa = PBXBuildFile; fileRef = C3757ABE1FEB837A00A48503 /* VT100.m */; };
 		C3757ACB1FEB858900A48503 /* fun.c in Sources */ = {isa = PBXBuildFile; fileRef = C3757AC21FEB858800A48503 /* fun.c */; };
 		C3757ACC1FEB858900A48503 /* fun_objc.m in Sources */ = {isa = PBXBuildFile; fileRef = C3757AC51FEB858800A48503 /* fun_objc.m */; };
-		C3757ACE1FEB858900A48503 /* launchctl in Resources */ = {isa = PBXBuildFile; fileRef = C3757AC81FEB858800A48503 /* launchctl */; };
 		C3757ACF1FEB858900A48503 /* patchfinder64.c in Sources */ = {isa = PBXBuildFile; fileRef = C3757AC91FEB858800A48503 /* patchfinder64.c */; };
 		C3757AE61FEB86EF00A48503 /* async_wake.c in Sources */ = {isa = PBXBuildFile; fileRef = C3757AD21FEB86EE00A48503 /* async_wake.c */; };
 		C3757AE81FEB86EF00A48503 /* early_kalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = C3757AD51FEB86EE00A48503 /* early_kalloc.c */; };
@@ -38,10 +37,8 @@
 		C3757AEC1FEB86EF00A48503 /* kmem.c in Sources */ = {isa = PBXBuildFile; fileRef = C3757ADD1FEB86EE00A48503 /* kmem.c */; };
 		C3757AED1FEB86EF00A48503 /* kutils.c in Sources */ = {isa = PBXBuildFile; fileRef = C3757ADF1FEB86EE00A48503 /* kutils.c */; };
 		C3757AEF1FEB86EF00A48503 /* symbols.c in Sources */ = {isa = PBXBuildFile; fileRef = C3757AE21FEB86EE00A48503 /* symbols.c */; };
-		C3757AF01FEB86EF00A48503 /* test_fsigned in Resources */ = {isa = PBXBuildFile; fileRef = C3757AE41FEB86EE00A48503 /* test_fsigned */; };
-		C3757AF11FEB86EF00A48503 /* test_fsigned.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3757AE51FEB86EE00A48503 /* test_fsigned.plist */; };
 		C3757AF31FEB8A1D00A48503 /* binpack.tar in Resources */ = {isa = PBXBuildFile; fileRef = C3757AF21FEB8A1C00A48503 /* binpack.tar */; };
-		C3757AF51FEB8A9300A48503 /* tar in Resources */ = {isa = PBXBuildFile; fileRef = C3757AF41FEB8A9200A48503 /* tar */; };
+		C3757AF51FEB8A9300A48503 /* tar.binary.txt in Resources */ = {isa = PBXBuildFile; fileRef = C3757AF41FEB8A9200A48503 /* tar.binary.txt */; };
 		C3757AF71FEB8DF400A48503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3757AF61FEB8DF400A48503 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -77,7 +74,6 @@
 		C3757AC31FEB858800A48503 /* fun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fun.h; sourceTree = "<group>"; };
 		C3757AC41FEB858800A48503 /* fun_objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fun_objc.h; sourceTree = "<group>"; };
 		C3757AC51FEB858800A48503 /* fun_objc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fun_objc.m; sourceTree = "<group>"; };
-		C3757AC81FEB858800A48503 /* launchctl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = launchctl; sourceTree = "<group>"; };
 		C3757AC91FEB858800A48503 /* patchfinder64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = patchfinder64.c; sourceTree = "<group>"; };
 		C3757ACA1FEB858800A48503 /* patchfinder64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = patchfinder64.h; sourceTree = "<group>"; };
 		C3757AD11FEB86EE00A48503 /* arm64_state.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arm64_state.h; sourceTree = "<group>"; };
@@ -97,10 +93,8 @@
 		C3757AE01FEB86EE00A48503 /* kutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kutils.h; sourceTree = "<group>"; };
 		C3757AE21FEB86EE00A48503 /* symbols.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = symbols.c; sourceTree = "<group>"; };
 		C3757AE31FEB86EE00A48503 /* symbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symbols.h; sourceTree = "<group>"; };
-		C3757AE41FEB86EE00A48503 /* test_fsigned */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = test_fsigned; sourceTree = "<group>"; };
-		C3757AE51FEB86EE00A48503 /* test_fsigned.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test_fsigned.plist; sourceTree = "<group>"; };
 		C3757AF21FEB8A1C00A48503 /* binpack.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = binpack.tar; sourceTree = "<group>"; };
-		C3757AF41FEB8A9200A48503 /* tar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tar; sourceTree = "<group>"; };
+		C3757AF41FEB8A9200A48503 /* tar.binary.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = tar.binary.txt; sourceTree = "<group>"; };
 		C3757AF61FEB8DF400A48503 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,12 +176,9 @@
 				C3757AC31FEB858800A48503 /* fun.h */,
 				C3757AC41FEB858800A48503 /* fun_objc.h */,
 				C3757AC51FEB858800A48503 /* fun_objc.m */,
-				C3757AC81FEB858800A48503 /* launchctl */,
 				C3757AC91FEB858800A48503 /* patchfinder64.c */,
 				C3757ACA1FEB858800A48503 /* patchfinder64.h */,
-				C3757AF41FEB8A9200A48503 /* tar */,
-				C3757AE41FEB86EE00A48503 /* test_fsigned */,
-				C3757AE51FEB86EE00A48503 /* test_fsigned.plist */,
+				C3757AF41FEB8A9200A48503 /* tar.binary.txt */,
 				C3757AF21FEB8A1C00A48503 /* binpack.tar */,
 			);
 			path = the_fun_part;
@@ -279,20 +270,17 @@
 				C3757A901FEB806B00A48503 /* icon-76.png in Resources */,
 				C3757A891FEB806B00A48503 /* Default@2x.png in Resources */,
 				C3757A881FEB806B00A48503 /* Default.png in Resources */,
-				C3757AF51FEB8A9300A48503 /* tar in Resources */,
+				C3757AF51FEB8A9300A48503 /* tar.binary.txt in Resources */,
 				C3757A8D1FEB806B00A48503 /* icon-60.png in Resources */,
 				C162F58F1FED4F0400112B23 /* README.md in Resources */,
-				C3757ACE1FEB858900A48503 /* launchctl in Resources */,
 				C3757AF71FEB8DF400A48503 /* LaunchScreen.storyboard in Resources */,
 				C3757A8C1FEB806B00A48503 /* icon-40@3x.png in Resources */,
 				C3757A8B1FEB806B00A48503 /* icon-40@2x.png in Resources */,
-				C3757AF01FEB86EF00A48503 /* test_fsigned in Resources */,
 				C3757AF31FEB8A1D00A48503 /* binpack.tar in Resources */,
 				C3757A8E1FEB806B00A48503 /* icon-60@2x.png in Resources */,
 				C3757A8F1FEB806B00A48503 /* icon-60@3x.png in Resources */,
 				C3757A8A1FEB806B00A48503 /* icon-40.png in Resources */,
 				C3757A841FEB806B00A48503 /* bell.caf in Resources */,
-				C3757AF11FEB86EF00A48503 /* test_fsigned.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,13 +425,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-framework",
 					IOKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.officialscheduler.mterminal;
 				PRODUCT_NAME = MTerminal;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -454,13 +446,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-framework",
 					IOKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.officialscheduler.mterminal;
 				PRODUCT_NAME = MTerminal;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
