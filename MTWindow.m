@@ -13,7 +13,7 @@
 -(instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if(self) {
-        statusBarLegibilityView = [[[MTGradientView alloc] init] autorelease];
+        statusBarLegibilityView = [[MTGradientView alloc] init];
         statusBarLegibilityView.colours = @[[UIColor blackColor], [UIColor blackColor], [UIColor clearColor]];
         [self addSubview:statusBarLegibilityView];
     }
