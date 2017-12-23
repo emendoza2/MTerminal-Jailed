@@ -8,7 +8,7 @@
   UIScrollView* view=(UIScrollView*)self.view;
   UIEdgeInsets inset=view.contentInset;
   if(inset.bottom!=kbHeight){
-    inset.bottom=kbHeight - view.safeAreaInsets.bottom;
+    inset.bottom=fmax(0, kbHeight - view.safeAreaInsets.bottom);
     view.contentInset=view.scrollIndicatorInsets=inset;
     [self screenSizeDidChange];
   }
