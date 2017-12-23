@@ -2,7 +2,7 @@
 
 An iOS 11.0-11.1.2 compatible fork of MTerminal using Ian Beer's tfp0 exploit, as seen [here](https://twitter.com/AppleBetasDev/status/944224456922353664).
 
-**Now available as a sideloadable IPA:** [Download here](https://github.com/AppleBetas/MTerminal-Jailed/releases/download/v1.0/MTerminal.ipa)
+**Now available as a sideloadable IPA:** [Download here](https://github.com/AppleBetas/MTerminal-Jailed/releases/download/v1.0.1/MTerminal.ipa)
 
 It's terrible, the code is terrible (3 AM-level terrible), and I'm terrible, but *it works*.
 
